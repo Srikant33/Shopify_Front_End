@@ -1,0 +1,44 @@
+#user-form {
+  display: flex;
+  justify-content: center;
+  
+  textarea {
+    height: 200px;
+    width: 100%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+
+    
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none; 
+  }
+  .wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header-wrap {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    label {
+      height: 50px;
+      line-height: 50px;
+      padding-left: 15px;
+    }
+  }
+  
+  button {
+    padding: 8px 12px;
+    margin: 10px 0px;
+    align-self: center;
+    border: 1px transparent;
+  }
+}
